@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 <body>
-    Hello Ji, This is Khushi
+    <div>
+        <h1>HTML ELEMENTS</h1>
+        <h4>Following is the example of P tag</h4>
+        <p>HTML (Hypertext Markup Language) elements are the fundamental building blocks of web pages. They define the structure and content of a webpage.</p>
+        <span>This is a example of span tag</span><span>.</span>
+        <h3>Following is a example of Image tag and its's attribute(width,alt, src and height)</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" width="500px" height="500px" alt="image tag" />
+        <h2>following is a example of a tag and its attribute href</h2>
+        <a href="https://www.google.com/">Google</a>
+        <h1>Now, Giving an example of Html Headings</h1>
+        <h6 id="h6">html hradings goes from h1 to h6</h6>
+        <h3 class="h3">Class and is are one of the most used attributes of html</h3>
+        <h2>Following is a example of Unordered List</h2>
+        <ul>
+            <li>it is not ordered.</li>
+            <li>like, it not have any form of numbering</li>
+            <li>square dot are mostly used.</li>
+        </ul>
+        <h2>Following is going to be an example of ordered list</h2>
+        <ol>
+            <li>they have a form of numbering</li>
+            <li>i, 1 and many are used in this case.</li>
+        </ol>
+    </div>
+    <div>
+        <h1>HTML TAbles</h1>
+        <table>
+            <caption>Table Example</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>roll no</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Radhe</td>
+                    <td>1</td>
+                    <td>99</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">total</th>
+                    <th>99</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div>
+        <form>
+        <h1>HTML fORMS AND INPUT TYPES</h1>
+        <p>Name: *<input type="text" placeholder="Enter Your Name" required/></p>
+        <p>Phone Number: *<input type="number" placeholder="Your Phone Number" required/></p>
+        <p>Email: *<input type="email" placeholder="Your email" required/></p>
+        <p>Date oF Birth: *<input type="date" placeholder="Your email" required/></p>
+        <p>Address : <textarea cols="40" rows="10" ></textarea></p>
+        *<fieldset>
+            <legend>Gender</legend>
+            <p><input type="radio" name="gender" id="male">Male</p>
+            <p><input type="radio" name="gender"id="female">Female</p>
+        </fieldset>
+        <h2>Technical Skills</h2>
+        <p>Skills Type : </p>
+        <select name="skills" id="skills">
+            <option value="">Select a one </option>
+            <option value="soft">Soft Skills </option>
+            <option value="code">Programming Skills </option>
+        </select>
+        <p>Favourite numbers: <input type="password"/></p>
+        <input type="submit"/>
+        <input type="reset" />
+    </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,89 @@
+*{
+    background: papayawhip;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+:root {
+    --primary-color: #badb34;
+    --font-size: 46px;
+  }
+.h3{
+    color:aqua;
+    background: lavenderblush;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 5px 30px;
+    position: fixed;
+    bottom: 0px;
+    font-size: var(--font-size);
+}
+#h6{
+    text-decoration: overline;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px;
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    background-color: var(--primary-color);
+}
+a[href="https://www.google.com/"]{
+    font-size: 2vw;
+    position: fixed;
+    top: 0px;
+}
+a[href="https://www.google.com/"]:hover{
+    color: green;
+}
+div >p{
+    color: rgb(219, 45, 74);
+}
+p::first-line{
+    color:brown;
+}
+p input{
+    background: ghostwhite;
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+ol{
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+table{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 7px;
+    border-spacing: 5px;
+}
+td{
+    border: 1px solid blue;
+}
+th{
+    border: 1px solid blue;
+}
+div{
+    border: 2px solid black;
+    padding: 3px;
+    margin: 3px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:900px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
